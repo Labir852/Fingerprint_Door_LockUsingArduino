@@ -15,7 +15,7 @@ SoftwareSerial mySerial(2, 3);
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&mySerial);
 
 int door_lock = 12; //connect the door lock to pin 12
-int lock_delay = 1500; //change the delay from here
+int lock_delay = 2000; //change the delay from here
 
 void setup()  
 {
